@@ -1,0 +1,78 @@
+/* Основні кольори */
+:root {
+  --primary-color-light: #819B57;
+  --primary-color-dark: #465929;
+  --secondary-color: #FAF4EA;
+  --accent-color: #31261A;
+}
+
+/* Кнопка "Замовити дзвінок" */
+.button-order {
+  background-color: var(--primary-color-light);
+  color: var(--secondary-color);
+  border-radius: 8px;
+  border: 2px solid var(--primary-color-light);
+  cursor: pointer;
+}
+
+/*Зміна кольору кнопки при наведенні, фокусі та активному стані */
+.button-order:hover {
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
+/* Зміна кольору кнопки при фокусі (для користувачів, які використовують клавіатуру, використовують для полів введення найчастіше)
+.button-order:focus {
+  color: pink;
+}
+
+Зміна кольору кнопки при активному стані
+.button-order:active {
+  color: pink;
+} */
+
+body {
+  color: var(--accent-color);
+}
+
+/* Стилі для списків та навігаційних посилань */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Стилі для навігаційних посилань */
+.nav-link {
+  color: var(--secondary-color);
+} 
+
+/* Зміна кольору навігаційних посилань при наведенні */
+.nav-link:hover {
+  color: var(--primary-color-light);
+}
+
+/* Стилі для заголовків та списків переваг */
+.hero-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: var(--secondary-color);
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* Стилі для акцентного тексту в заголовку */
+.hero-title .accent {
+  color: var(--primary-color-light);
+}
+
+/* Стилі для списку переваг */
+.advantages-list {
+  color: var(--secondary-color);
+  background-color: var(--primary-color-light);
+}
+
+/* Стилі для заголовків секцій */
+.section-title .accent {
+  color: var(--primary-color-dark);
+}
